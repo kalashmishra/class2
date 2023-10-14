@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html , body{
+        width: 100%;
+        height: 100%;
+    }
+    #main{
+        width: 100%;
+        height: 100%;
+    
+    }
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 60%;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    #one{
+        left: 20%;
+    }
+    #three{
+        left: 80%;
+    }
+    img:hover{
+        cursor: pointer;
+        height: 80%;
+    }
